@@ -4,6 +4,7 @@ function produceDrivingRange(range) {
   }
 }
 
+let idDriver = o
 function createDriver() {
   class Driver {
     constructor(name) {
