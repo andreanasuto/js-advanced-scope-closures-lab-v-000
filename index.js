@@ -7,6 +7,7 @@ function produceDrivingRange(range) {
 
 function createDriver() {
   let idDriver = 0
+  
   class Driver {
     constructor(name) {
       this.name = name
