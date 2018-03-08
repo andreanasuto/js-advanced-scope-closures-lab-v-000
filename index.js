@@ -10,7 +10,9 @@ function produceDrivingRange(range) {
 }
 
 function produceTipCalculator(percentage) {
-
+  return function tip(ridePrice) {
+    return ridePrice * percentage
+  }
 }
 
 
