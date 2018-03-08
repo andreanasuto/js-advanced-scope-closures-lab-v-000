@@ -1,13 +1,16 @@
 function produceDrivingRange(range) {
   function ciccio(start, end) {
-    return Math.abs(start.substring(0, 2) - end.substring(0, 2))
+    let distance = Math.abs(start.substring(0, 2) - end.substring(0, 2))
+    if (distance > range) {
+
+    }
   }
 }
 
 
 function createDriver() {
   let idDriver = 0
-  
+
   class Driver {
     constructor(name) {
       this.name = name
