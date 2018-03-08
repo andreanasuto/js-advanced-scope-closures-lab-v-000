@@ -9,6 +9,10 @@ function produceDrivingRange(range) {
   }
 }
 
+function produceTipCalculator() {
+
+}
+
 
 function createDriver() {
   let idDriver = 0
