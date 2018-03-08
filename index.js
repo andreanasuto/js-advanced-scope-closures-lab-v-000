@@ -13,4 +13,5 @@ function createDriver() {
       this.id = idDriver++
     }
   }
+  return this
 }
